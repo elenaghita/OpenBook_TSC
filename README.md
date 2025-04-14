@@ -119,7 +119,7 @@ TXD0 – data transmission,RXD0 – data reception.
 ## Errors
 In the DRC check report, there are 4 entries marked as "Approved" and no critical errors. These are:
 
-![errors](./Images/error.JPG)
+![errors](./Images/errors.JPG)
 
-* 2 warnings of type Copper Width: These appear because the width of some SMD traces is below the recommended minimum for the net in the 1 POWER net class. I approved them because the current carried is low, and the width is still sufficient for proper operation.
-* 2 warnings of type Board Outline Clearance: These indicate that some SMD holes are too close to the board outline. I approved them since the clearance is still acceptable for manufacturing, and the mechanical constraints of the design required this placement.
+
+* 2 errors of type Board Outline Clearance: These indicate that some SMD holes are too close to the board outline. I approved them since the clearance is still acceptable for manufacturing, and the mechanical constraints of the design required this placement.
